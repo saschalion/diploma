@@ -1357,3 +1357,1413 @@ Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_acti
 Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.41 ms (1)
 Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.29 ms (1)
 Feb 07 15:50:12 symfony [info] {sfWebResponse} Send content (131261 o)
+Feb 07 16:20:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:20:14 symfony [info] {myUser} Automatic user logout due to timeout
+Feb 07 16:20:14 symfony [info] {myUser} User is not authenticated
+Feb 07 16:20:14 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:20:14 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:20:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:20:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:20:14 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (5)
+Feb 07 16:20:14 symfony [info] {sfWebDebugLogger} Factories 25.57 ms (1)
+Feb 07 16:22:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:22:01 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:22:01 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:22:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:22:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:22:01 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (5)
+Feb 07 16:22:01 symfony [info] {sfWebDebugLogger} Factories 25.04 ms (1)
+Feb 07 16:22:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:22:02 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:22:02 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:22:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:22:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:22:02 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (5)
+Feb 07 16:22:02 symfony [info] {sfWebDebugLogger} Factories 23.54 ms (1)
+Feb 07 16:24:12 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:24:12 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:24:12 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:24:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:24:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:24:12 symfony [info] {sfWebDebugLogger} Configuration 31.18 ms (6)
+Feb 07 16:24:12 symfony [info] {sfWebDebugLogger} Factories 52.14 ms (1)
+Feb 07 16:24:15 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:24:15 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:24:15 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:24:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:24:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:24:15 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (5)
+Feb 07 16:24:15 symfony [info] {sfWebDebugLogger} Factories 23.03 ms (1)
+Feb 07 16:24:42 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:24:42 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:24:42 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:24:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:24:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:24:42 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (5)
+Feb 07 16:24:42 symfony [info] {sfWebDebugLogger} Factories 23.25 ms (1)
+Feb 07 16:24:55 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:24:55 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:24:55 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:24:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:24:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:24:55 symfony [info] {sfWebDebugLogger} Configuration 31.51 ms (6)
+Feb 07 16:24:55 symfony [info] {sfWebDebugLogger} Factories 52.18 ms (1)
+Feb 07 16:24:56 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:24:56 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:24:56 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:24:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:24:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:24:56 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (5)
+Feb 07 16:24:56 symfony [info] {sfWebDebugLogger} Factories 22.77 ms (1)
+Feb 07 16:24:56 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:24:56 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:24:56 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:24:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:24:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:24:56 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (5)
+Feb 07 16:24:56 symfony [info] {sfWebDebugLogger} Factories 25.72 ms (1)
+Feb 07 16:24:57 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:24:57 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:24:57 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:24:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:24:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:24:57 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (5)
+Feb 07 16:24:57 symfony [info] {sfWebDebugLogger} Factories 23.57 ms (1)
+Feb 07 16:25:52 symfony [info] {sfPatternRouting} Match route "forest_main" (/chart.:sf_format) for /chart with parameters array (  'module' => 'forest_main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:25:52 symfony [info] {sfFrontWebController} Action "forest_main/index" does not exist
+Feb 07 16:25:52 symfony [err] {sfError404Exception} Action "forest_main/index" does not exist.
+Feb 07 16:25:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:25:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:25:52 symfony [info] {sfWebDebugLogger} Configuration 30.24 ms (6)
+Feb 07 16:25:52 symfony [info] {sfWebDebugLogger} Factories 51.78 ms (1)
+Feb 07 16:26:02 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:26:02 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:26:02 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:26:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:26:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:02 symfony [info] {sfWebDebugLogger} Configuration 31.16 ms (6)
+Feb 07 16:26:02 symfony [info] {sfWebDebugLogger} Factories 52.69 ms (1)
+Feb 07 16:26:12 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:26:12 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:26:12 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:26:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:26:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:12 symfony [info] {sfWebDebugLogger} Configuration 33.71 ms (6)
+Feb 07 16:26:12 symfony [info] {sfWebDebugLogger} Factories 55.70 ms (1)
+Feb 07 16:26:13 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:26:13 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:26:13 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:26:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:26:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:13 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (5)
+Feb 07 16:26:13 symfony [info] {sfWebDebugLogger} Factories 23.16 ms (1)
+Feb 07 16:26:14 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:26:14 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:26:14 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:26:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:26:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:14 symfony [info] {sfWebDebugLogger} Configuration 0.47 ms (5)
+Feb 07 16:26:14 symfony [info] {sfWebDebugLogger} Factories 22.40 ms (1)
+Feb 07 16:26:14 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:26:14 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:26:14 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:26:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:26:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:14 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (5)
+Feb 07 16:26:14 symfony [info] {sfWebDebugLogger} Factories 22.49 ms (1)
+Feb 07 16:26:18 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:26:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:26:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:26:18 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 16:26:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:26:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 16:26:18 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:26:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_actions.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 16:26:18 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 16:26:18 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:26:18 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:26:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:26:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Configuration 1.08 ms (11)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Factories 22.54 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Action "main/index" 28.92 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 44.84 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.40 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.35 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.29 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 16.38 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.46 ms (12)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list" 17.08 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 5.27 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.45 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 3.67 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_field_boolean" 0.78 ms (2)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_actions" 1.10 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.59 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.42 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.29 ms (1)
+Feb 07 16:26:18 symfony [info] {sfWebResponse} Send content (131185 o)
+Feb 07 16:26:21 symfony [info] {sfPatternRouting} Match route "forest_main_edit" (/main/:id/edit.:sf_format) for /main/1/edit with parameters array (  'module' => 'main',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:26:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:26:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:26:22 symfony [info] {mainActions} Call "mainActions->executeEdit()"
+Feb 07 16:26:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:26:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) - (1)
+Feb 07 16:26:22 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/editSuccess.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 16:26:22 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 16:26:22 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:26:22 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:26:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:26:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Configuration 1.14 ms (11)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Factories 23.10 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Action "main/edit" 44.84 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} View "Success" for "main/edit" 27.63 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.34 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.32 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Partial "main/_form" 17.76 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 13.51 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.97 ms (12)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.46 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.37 ms (1)
+Feb 07 16:26:22 symfony [info] {sfWebResponse} Send content (123191 o)
+Feb 07 16:26:25 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:26:25 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:26:25 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:26:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:26:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:26 symfony [info] {sfWebDebugLogger} Configuration 0.62 ms (5)
+Feb 07 16:26:26 symfony [info] {sfWebDebugLogger} Factories 25.61 ms (1)
+Feb 07 16:26:38 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:26:38 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:26:38 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:26:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:26:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:26:38 symfony [info] {sfWebDebugLogger} Configuration 33.15 ms (6)
+Feb 07 16:26:38 symfony [info] {sfWebDebugLogger} Factories 58.40 ms (1)
+Feb 07 16:27:05 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:05 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:05 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:05 symfony [info] {sfWebDebugLogger} Configuration 32.24 ms (6)
+Feb 07 16:27:05 symfony [info] {sfWebDebugLogger} Factories 55.11 ms (1)
+Feb 07 16:27:05 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:05 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:05 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:05 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (5)
+Feb 07 16:27:05 symfony [info] {sfWebDebugLogger} Factories 23.00 ms (1)
+Feb 07 16:27:06 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:06 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:06 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:06 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (5)
+Feb 07 16:27:06 symfony [info] {sfWebDebugLogger} Factories 22.58 ms (1)
+Feb 07 16:27:06 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:06 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:06 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:06 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (5)
+Feb 07 16:27:06 symfony [info] {sfWebDebugLogger} Factories 24.18 ms (1)
+Feb 07 16:27:39 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:39 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:39 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:39 symfony [info] {sfWebDebugLogger} Configuration 34.65 ms (6)
+Feb 07 16:27:39 symfony [info] {sfWebDebugLogger} Factories 56.38 ms (1)
+Feb 07 16:27:41 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:41 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:41 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:41 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (5)
+Feb 07 16:27:41 symfony [info] {sfWebDebugLogger} Factories 23.52 ms (1)
+Feb 07 16:27:57 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:57 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:57 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:57 symfony [info] {sfWebDebugLogger} Configuration 32.39 ms (6)
+Feb 07 16:27:57 symfony [info] {sfWebDebugLogger} Factories 53.75 ms (1)
+Feb 07 16:27:58 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:58 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:58 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:58 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (5)
+Feb 07 16:27:58 symfony [info] {sfWebDebugLogger} Factories 23.35 ms (1)
+Feb 07 16:27:58 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:58 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:58 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:58 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (5)
+Feb 07 16:27:58 symfony [info] {sfWebDebugLogger} Factories 23.01 ms (1)
+Feb 07 16:27:58 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:27:58 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:27:58 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:27:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:27:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:27:58 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (5)
+Feb 07 16:27:58 symfony [info] {sfWebDebugLogger} Factories 25.88 ms (1)
+Feb 07 16:30:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:30:12 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:30:12 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:30:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:30:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:12 symfony [info] {sfWebDebugLogger} Configuration 29.94 ms (6)
+Feb 07 16:30:12 symfony [info] {sfWebDebugLogger} Factories 52.74 ms (1)
+Feb 07 16:30:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:30:13 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:30:13 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:30:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:30:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:13 symfony [info] {sfWebDebugLogger} Configuration 0.56 ms (5)
+Feb 07 16:30:13 symfony [info] {sfWebDebugLogger} Factories 22.20 ms (1)
+Feb 07 16:30:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:30:13 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:30:13 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:30:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:30:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:13 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (5)
+Feb 07 16:30:13 symfony [info] {sfWebDebugLogger} Factories 21.92 ms (1)
+Feb 07 16:30:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:30:13 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:30:13 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:30:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:30:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:13 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (5)
+Feb 07 16:30:13 symfony [info] {sfWebDebugLogger} Factories 21.85 ms (1)
+Feb 07 16:30:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:30:15 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:30:15 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:30:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:30:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:15 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (5)
+Feb 07 16:30:15 symfony [info] {sfWebDebugLogger} Factories 22.08 ms (1)
+Feb 07 16:30:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:30:16 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:30:16 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:30:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:30:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:16 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (5)
+Feb 07 16:30:16 symfony [info] {sfWebDebugLogger} Factories 21.82 ms (1)
+Feb 07 16:30:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:30:16 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:30:16 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:30:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:30:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:16 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Feb 07 16:30:16 symfony [info] {sfWebDebugLogger} Factories 25.41 ms (1)
+Feb 07 16:30:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',)
+Feb 07 16:30:26 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:30:26 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:30:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:30:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:26 symfony [info] {sfWebDebugLogger} Configuration 58.84 ms (5)
+Feb 07 16:30:26 symfony [info] {sfWebDebugLogger} Factories 59.74 ms (1)
+Feb 07 16:30:49 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:30:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:30:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:30:49 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 16:30:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:30:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 16:30:49 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:30:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_actions.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 16:30:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 16:30:49 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:30:49 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:30:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:30:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Configuration 98.32 ms (11)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Factories 64.50 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Action "main/index" 21.24 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 49.73 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.46 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.37 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.31 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 15.94 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.13 ms (12)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list" 16.02 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 4.28 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.44 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 3.68 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_field_boolean" 0.80 ms (2)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_actions" 1.15 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.60 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.42 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.30 ms (1)
+Feb 07 16:30:49 symfony [info] {sfWebResponse} Send content (131215 o)
+Feb 07 16:31:15 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:31:15 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:31:15 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:31:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:31:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:31:15 symfony [info] {sfWebDebugLogger} Configuration 36.79 ms (6)
+Feb 07 16:31:15 symfony [info] {sfWebDebugLogger} Factories 64.45 ms (1)
+Feb 07 16:31:20 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:31:20 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:31:20 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:31:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:31:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:31:20 symfony [info] {sfWebDebugLogger} Configuration 63.24 ms (5)
+Feb 07 16:31:20 symfony [info] {sfWebDebugLogger} Factories 65.06 ms (1)
+Feb 07 16:31:21 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:31:21 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:31:21 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:31:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:31:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:31:21 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (5)
+Feb 07 16:31:21 symfony [info] {sfWebDebugLogger} Factories 22.51 ms (1)
+Feb 07 16:31:21 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:31:21 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:31:21 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:31:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:31:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:31:21 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (5)
+Feb 07 16:31:21 symfony [info] {sfWebDebugLogger} Factories 23.02 ms (1)
+Feb 07 16:31:21 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:31:21 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:31:21 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:31:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:31:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:31:21 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (5)
+Feb 07 16:31:21 symfony [info] {sfWebDebugLogger} Factories 22.53 ms (1)
+Feb 07 16:32:39 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:32:39 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:32:39 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:32:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:32:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:32:39 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (5)
+Feb 07 16:32:39 symfony [info] {sfWebDebugLogger} Factories 23.62 ms (1)
+Feb 07 16:32:40 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:32:40 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:32:40 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:32:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:32:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:32:40 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (5)
+Feb 07 16:32:40 symfony [info] {sfWebDebugLogger} Factories 23.38 ms (1)
+Feb 07 16:32:40 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:32:40 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:32:40 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:32:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:32:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:32:40 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (5)
+Feb 07 16:32:40 symfony [info] {sfWebDebugLogger} Factories 24.88 ms (1)
+Feb 07 16:32:41 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:32:41 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:32:41 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:32:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:32:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:32:41 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (5)
+Feb 07 16:32:41 symfony [info] {sfWebDebugLogger} Factories 23.51 ms (1)
+Feb 07 16:35:43 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:35:43 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:35:43 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:35:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:35:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:35:43 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (5)
+Feb 07 16:35:43 symfony [info] {sfWebDebugLogger} Factories 25.72 ms (1)
+Feb 07 16:35:44 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:35:44 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:35:44 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:35:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:35:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:35:44 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Feb 07 16:35:44 symfony [info] {sfWebDebugLogger} Factories 24.61 ms (1)
+Feb 07 16:35:44 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:35:44 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:35:44 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:35:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:35:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:35:44 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (5)
+Feb 07 16:35:44 symfony [info] {sfWebDebugLogger} Factories 22.87 ms (1)
+Feb 07 16:35:44 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:35:44 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:35:44 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:35:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:35:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:35:44 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (5)
+Feb 07 16:35:44 symfony [info] {sfWebDebugLogger} Factories 23.59 ms (1)
+Feb 07 16:35:46 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:35:46 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:35:46 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:35:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:35:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:35:46 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (5)
+Feb 07 16:35:46 symfony [info] {sfWebDebugLogger} Factories 22.13 ms (1)
+Feb 07 16:35:56 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:35:56 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:35:56 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:35:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:35:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:35:56 symfony [info] {sfWebDebugLogger} Configuration 63.71 ms (5)
+Feb 07 16:35:56 symfony [info] {sfWebDebugLogger} Factories 62.71 ms (1)
+Feb 07 16:36:11 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:36:11 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:36:11 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:36:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:36:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:36:11 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (5)
+Feb 07 16:36:11 symfony [info] {sfWebDebugLogger} Factories 23.74 ms (1)
+Feb 07 16:36:12 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:36:12 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:36:12 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:36:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:36:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:36:12 symfony [info] {sfWebDebugLogger} Configuration 0.63 ms (5)
+Feb 07 16:36:12 symfony [info] {sfWebDebugLogger} Factories 23.77 ms (1)
+Feb 07 16:36:52 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:36:52 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:36:52 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:36:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:36:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:36:52 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (5)
+Feb 07 16:36:52 symfony [info] {sfWebDebugLogger} Factories 27.24 ms (1)
+Feb 07 16:36:52 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:36:52 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:36:52 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:36:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:36:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:36:52 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (5)
+Feb 07 16:36:52 symfony [info] {sfWebDebugLogger} Factories 23.35 ms (1)
+Feb 07 16:36:53 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:36:53 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:36:53 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:36:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:36:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:36:53 symfony [info] {sfWebDebugLogger} Configuration 0.53 ms (5)
+Feb 07 16:36:53 symfony [info] {sfWebDebugLogger} Factories 23.03 ms (1)
+Feb 07 16:36:53 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:36:53 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:36:53 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:36:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:36:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:36:53 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (5)
+Feb 07 16:36:53 symfony [info] {sfWebDebugLogger} Factories 22.99 ms (1)
+Feb 07 16:37:35 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:37:35 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:37:35 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:37:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:37:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:37:36 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (5)
+Feb 07 16:37:36 symfony [info] {sfWebDebugLogger} Factories 24.03 ms (1)
+Feb 07 16:37:40 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:37:40 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/apps/backend/modules/main/actions/actions.class.php on line 3 (require_once(/home/fairdev/projects/diploma/apps/backend/modules/main/actions/../lib/jobGeneratorConfiguration.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory)
+Feb 07 16:38:20 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:38:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:38:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:38:20 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 16:38:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:38:20 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 16:38:20 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:38:20 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_actions.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 16:38:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 16:38:20 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:38:20 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:38:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:38:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Configuration 12.24 ms (12)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Factories 24.36 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Action "main/index" 29.86 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 46.21 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.48 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.37 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.33 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 16.12 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.24 ms (12)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list" 16.32 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 4.41 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.45 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 3.69 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_field_boolean" 0.76 ms (2)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_actions" 1.24 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.70 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.44 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.30 ms (1)
+Feb 07 16:38:20 symfony [info] {sfWebResponse} Send content (132123 o)
+Feb 07 16:38:27 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:38:28 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:38:28 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:38:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:38:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:38:28 symfony [info] {sfWebDebugLogger} Configuration 0.59 ms (5)
+Feb 07 16:38:28 symfony [info] {sfWebDebugLogger} Factories 24.80 ms (1)
+Feb 07 16:39:21 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:39:21 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:39:21 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:39:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:39:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:39:21 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (5)
+Feb 07 16:39:21 symfony [info] {sfWebDebugLogger} Factories 34.54 ms (1)
+Feb 07 16:39:22 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:39:22 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:39:22 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:39:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:39:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:39:22 symfony [info] {sfWebDebugLogger} Configuration 0.58 ms (5)
+Feb 07 16:39:22 symfony [info] {sfWebDebugLogger} Factories 25.65 ms (1)
+Feb 07 16:39:22 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:39:22 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:39:22 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:39:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:39:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:39:22 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (5)
+Feb 07 16:39:22 symfony [info] {sfWebDebugLogger} Factories 23.87 ms (1)
+Feb 07 16:39:23 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:39:23 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:39:23 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:39:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:39:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:39:23 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (5)
+Feb 07 16:39:23 symfony [info] {sfWebDebugLogger} Factories 23.52 ms (1)
+Feb 07 16:39:23 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:39:23 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:39:23 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:39:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:39:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:39:23 symfony [info] {sfWebDebugLogger} Configuration 0.47 ms (5)
+Feb 07 16:39:23 symfony [info] {sfWebDebugLogger} Factories 25.42 ms (1)
+Feb 07 16:39:27 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:39:27 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:39:27 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:39:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:39:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:39:27 symfony [info] {sfWebDebugLogger} Configuration 63.47 ms (5)
+Feb 07 16:39:27 symfony [info] {sfWebDebugLogger} Factories 66.46 ms (1)
+Feb 07 16:41:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:41:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:41:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:41:12 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:41:12 symfony [err] {Doctrine_Exception} Couldn't find class JobeetJob
+Feb 07 16:41:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 16:41:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:41:12 symfony [info] {sfWebDebugLogger} Configuration 59.33 ms (12)
+Feb 07 16:41:12 symfony [info] {sfWebDebugLogger} Factories 27.11 ms (1)
+Feb 07 16:41:12 symfony [info] {sfWebDebugLogger} Action "main/chart" 75.49 ms (1)
+Feb 07 16:42:31 symfony [info] {sfPatternRouting} Match route "chart" (/chart.:sf_format) for /chart with parameters array (  'module' => 'chart',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:42:31 symfony [info] {sfFrontWebController} Action "chart/index" does not exist
+Feb 07 16:42:31 symfony [err] {sfError404Exception} Action "chart/index" does not exist.
+Feb 07 16:42:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:42:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:42:31 symfony [info] {sfWebDebugLogger} Configuration 0.59 ms (5)
+Feb 07 16:42:31 symfony [info] {sfWebDebugLogger} Factories 24.39 ms (1)
+Feb 07 16:42:32 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:42:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:42:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:42:32 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 16:42:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:42:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 16:42:32 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 16:42:32 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:42:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 16:42:33 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 16:42:33 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 16:42:33 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:42:33 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:42:33 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_actions.php"
+Feb 07 16:42:33 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 16:42:33 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 16:42:33 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 16:42:33 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:42:33 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:42:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:42:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Configuration 7.89 ms (12)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Factories 24.12 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Action "main/index" 27.19 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 53.36 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.36 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.30 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 18.10 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.63 ms (12)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list" 16.34 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 4.34 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.44 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 3.74 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_field_boolean" 0.94 ms (2)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_actions" 1.11 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.58 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.43 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.31 ms (1)
+Feb 07 16:42:33 symfony [info] {sfWebResponse} Send content (132091 o)
+Feb 07 16:42:39 symfony [info] {sfPatternRouting} Match route "forest_main_edit" (/main/:id/edit.:sf_format) for /main/1/edit with parameters array (  'module' => 'main',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:42:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:42:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:42:39 symfony [info] {mainActions} Call "mainActions->executeEdit()"
+Feb 07 16:42:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:42:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) - (1)
+Feb 07 16:42:39 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/editSuccess.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 16:42:39 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 16:42:39 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:42:39 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:42:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:42:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Configuration 1.15 ms (11)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Factories 23.34 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Action "main/edit" 41.19 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} View "Success" for "main/edit" 25.52 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.33 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Partial "main/_form" 15.91 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 12.09 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 7.99 ms (12)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.18 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.33 ms (1)
+Feb 07 16:42:39 symfony [info] {sfWebResponse} Send content (123901 o)
+Feb 07 16:42:43 symfony [info] {sfPatternRouting} Match route "forest_main_show" (/main/:id.:sf_format) for /main/1 with parameters array (  'module' => 'main',  'action' => 'show',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:42:43 symfony [info] {sfFrontWebController} Action "main/show" does not exist
+Feb 07 16:42:43 symfony [err] {sfError404Exception} Action "main/show" does not exist.
+Feb 07 16:42:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:42:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:42:43 symfony [info] {sfWebDebugLogger} Configuration 0.78 ms (7)
+Feb 07 16:42:43 symfony [info] {sfWebDebugLogger} Factories 22.78 ms (1)
+Feb 07 16:43:13 symfony [info] {sfPatternRouting} Match route "forest_main_show" (/main/:id.:sf_format) for /main/1 with parameters array (  'module' => 'main',  'action' => 'show',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:43:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:43:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:43:13 symfony [info] {mainActions} Call "mainActions->executeShow()"
+Feb 07 16:43:13 symfony [err] {Doctrine_Exception} Couldn't find class JobeetJob
+Feb 07 16:43:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 16:43:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:43:13 symfony [info] {sfWebDebugLogger} Configuration 27.60 ms (12)
+Feb 07 16:43:13 symfony [info] {sfWebDebugLogger} Factories 28.91 ms (1)
+Feb 07 16:43:13 symfony [info] {sfWebDebugLogger} Action "main/show" 89.25 ms (1)
+Feb 07 16:43:23 symfony [info] {sfPatternRouting} Match route "forest_main_show" (/main/:id.:sf_format) for /main/1 with parameters array (  'module' => 'main',  'action' => 'show',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:43:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:43:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:43:23 symfony [info] {mainActions} Call "mainActions->executeShow()"
+Feb 07 16:43:23 symfony [err] {Doctrine_Exception} Couldn't find class JobeetJob
+Feb 07 16:43:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 16:43:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:43:23 symfony [info] {sfWebDebugLogger} Configuration 109.72 ms (11)
+Feb 07 16:43:23 symfony [info] {sfWebDebugLogger} Factories 64.08 ms (1)
+Feb 07 16:43:23 symfony [info] {sfWebDebugLogger} Action "main/show" 65.85 ms (1)
+Feb 07 16:43:29 symfony [info] {sfPatternRouting} Match route "forest_main_edit" (/main/:id/edit.:sf_format) for /main/1/edit with parameters array (  'module' => 'main',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:43:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:43:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:43:30 symfony [info] {mainActions} Call "mainActions->executeEdit()"
+Feb 07 16:43:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:43:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) - (1)
+Feb 07 16:43:30 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/editSuccess.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 16:43:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 16:43:30 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:43:30 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:43:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:43:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Configuration 8.59 ms (12)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Factories 25.54 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Action "main/edit" 37.42 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} View "Success" for "main/edit" 35.19 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.33 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.35 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Partial "main/_form" 17.02 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 12.87 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.42 ms (12)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.22 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.34 ms (1)
+Feb 07 16:43:30 symfony [info] {sfWebResponse} Send content (123901 o)
+Feb 07 16:43:34 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 16:43:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:43:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:43:34 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 16:43:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:43:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 16:43:34 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 16:43:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_actions.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 16:43:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 16:43:34 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:43:34 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:43:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:43:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (11)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Factories 25.30 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Action "main/index" 27.22 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 45.59 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.37 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.29 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 16.12 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.40 ms (12)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list" 17.90 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 4.54 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.52 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 3.54 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_field_boolean" 0.76 ms (2)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_actions" 1.10 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.59 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.41 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.30 ms (1)
+Feb 07 16:43:34 symfony [info] {sfWebResponse} Send content (132167 o)
+Feb 07 16:43:37 symfony [info] {sfPatternRouting} Match route "forest_main_edit" (/main/:id/edit.:sf_format) for /main/1/edit with parameters array (  'module' => 'main',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:43:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:43:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:43:37 symfony [info] {mainActions} Call "mainActions->executeEdit()"
+Feb 07 16:43:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:43:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) - (1)
+Feb 07 16:43:37 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/editSuccess.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 16:43:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 16:43:37 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:43:37 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 16:43:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:43:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (11)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Factories 23.79 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Action "main/edit" 35.05 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} View "Success" for "main/edit" 25.75 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.32 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.05 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 12.16 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.12 ms (12)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.28 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.37 ms (1)
+Feb 07 16:43:37 symfony [info] {sfWebResponse} Send content (123901 o)
+Feb 07 16:43:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:43:39 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:43:39 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:43:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:43:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:43:39 symfony [info] {sfWebDebugLogger} Configuration 0.80 ms (7)
+Feb 07 16:43:39 symfony [info] {sfWebDebugLogger} Factories 27.09 ms (1)
+Feb 07 16:44:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:08 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:08 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:08 symfony [info] {sfWebDebugLogger} Configuration 32.64 ms (8)
+Feb 07 16:44:08 symfony [info] {sfWebDebugLogger} Factories 53.99 ms (1)
+Feb 07 16:44:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:37 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:37 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:37 symfony [info] {sfWebDebugLogger} Configuration 0.85 ms (7)
+Feb 07 16:44:37 symfony [info] {sfWebDebugLogger} Factories 28.50 ms (1)
+Feb 07 16:44:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:39 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:39 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:39 symfony [info] {sfWebDebugLogger} Configuration 0.89 ms (7)
+Feb 07 16:44:39 symfony [info] {sfWebDebugLogger} Factories 27.28 ms (1)
+Feb 07 16:44:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:39 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:39 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:39 symfony [info] {sfWebDebugLogger} Configuration 0.76 ms (7)
+Feb 07 16:44:39 symfony [info] {sfWebDebugLogger} Factories 22.76 ms (1)
+Feb 07 16:44:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:51 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:51 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:51 symfony [info] {sfWebDebugLogger} Configuration 0.65 ms (7)
+Feb 07 16:44:51 symfony [info] {sfWebDebugLogger} Factories 22.61 ms (1)
+Feb 07 16:44:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:52 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:52 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:52 symfony [info] {sfWebDebugLogger} Configuration 0.76 ms (7)
+Feb 07 16:44:52 symfony [info] {sfWebDebugLogger} Factories 36.31 ms (1)
+Feb 07 16:44:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:53 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:53 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:53 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (7)
+Feb 07 16:44:53 symfony [info] {sfWebDebugLogger} Factories 23.16 ms (1)
+Feb 07 16:44:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:53 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:53 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:53 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (7)
+Feb 07 16:44:53 symfony [info] {sfWebDebugLogger} Factories 24.35 ms (1)
+Feb 07 16:44:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:44:53 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:44:53 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:44:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:44:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:44:53 symfony [info] {sfWebDebugLogger} Configuration 0.78 ms (7)
+Feb 07 16:44:53 symfony [info] {sfWebDebugLogger} Factories 22.64 ms (1)
+Feb 07 16:45:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:45:38 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:45:38 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:45:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:45:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:45:38 symfony [info] {sfWebDebugLogger} Configuration 34.14 ms (8)
+Feb 07 16:45:38 symfony [info] {sfWebDebugLogger} Factories 57.52 ms (1)
+Feb 07 16:45:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/1/ with parameters array (  'module' => 'main',  'action' => '1',)
+Feb 07 16:45:48 symfony [info] {sfFrontWebController} Action "main/1" does not exist
+Feb 07 16:45:48 symfony [err] {sfError404Exception} Action "main/1" does not exist.
+Feb 07 16:45:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:45:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:45:48 symfony [info] {sfWebDebugLogger} Configuration 0.74 ms (7)
+Feb 07 16:45:48 symfony [info] {sfWebDebugLogger} Factories 27.28 ms (1)
+Feb 07 16:45:58 symfony [info] {sfPatternRouting} Match route "forest_main_show" (/main/:id.:sf_format) for /main/1 with parameters array (  'module' => 'main',  'action' => 'show',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:45:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:45:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:45:58 symfony [info] {mainActions} Call "mainActions->executeShow()"
+Feb 07 16:45:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:45:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - (1)
+Feb 07 16:45:58 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 16:45:58 symfony [err] {sfRenderException} The template "showSuccess.php" does not exist or is unreadable in "".
+Feb 07 16:45:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 16:45:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:45:58 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (11)
+Feb 07 16:45:58 symfony [info] {sfWebDebugLogger} Factories 25.74 ms (1)
+Feb 07 16:45:58 symfony [info] {sfWebDebugLogger} Action "main/show" 30.81 ms (1)
+Feb 07 16:45:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:45:58 symfony [info] {sfWebDebugLogger} View "Success" for "main/show" 21.78 ms (1)
+Feb 07 16:46:21 symfony [info] {sfPatternRouting} Match route "forest_main_show" (/main/:id.:sf_format) for /main/1 with parameters array (  'module' => 'main',  'action' => 'show',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:46:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:46:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:46:21 symfony [info] {mainActions} Call "mainActions->executeShow()"
+Feb 07 16:46:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:46:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - (1)
+Feb 07 16:46:21 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 16:46:21 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/showSuccess.php"
+Feb 07 16:46:21 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 16:46:21 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 16:46:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:46:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:46:21 symfony [info] {sfWebDebugLogger} Configuration 1.12 ms (11)
+Feb 07 16:46:21 symfony [info] {sfWebDebugLogger} Factories 23.31 ms (1)
+Feb 07 16:46:21 symfony [info] {sfWebDebugLogger} Action "main/show" 34.71 ms (1)
+Feb 07 16:46:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:46:21 symfony [info] {sfWebDebugLogger} View "Success" for "main/show" 9.76 ms (1)
+Feb 07 16:46:21 symfony [info] {sfWebResponse} Send content (32818 o)
+Feb 07 16:47:35 symfony [info] {sfPatternRouting} Match route "forest_main_show" (/main/:id.:sf_format) for /main/1 with parameters array (  'module' => 'main',  'action' => 'show',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 16:47:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:47:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:47:35 symfony [info] {mainActions} Call "mainActions->executeShow()"
+Feb 07 16:47:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:47:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - (1)
+Feb 07 16:47:35 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 16:47:35 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/showSuccess.php"
+Feb 07 16:47:35 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 16:47:35 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 16:47:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:47:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:47:35 symfony [info] {sfWebDebugLogger} Configuration 1.02 ms (11)
+Feb 07 16:47:35 symfony [info] {sfWebDebugLogger} Factories 24.63 ms (1)
+Feb 07 16:47:35 symfony [info] {sfWebDebugLogger} Action "main/show" 27.22 ms (1)
+Feb 07 16:47:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:47:35 symfony [info] {sfWebDebugLogger} View "Success" for "main/show" 7.84 ms (1)
+Feb 07 16:47:35 symfony [info] {sfWebResponse} Send content (32821 o)
+Feb 07 16:48:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:48:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:48:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:48:54 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:48:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:48:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:48:54 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:48:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:48:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:48:54 symfony [info] {sfWebDebugLogger} Configuration 1.19 ms (10)
+Feb 07 16:48:54 symfony [info] {sfWebDebugLogger} Factories 24.02 ms (1)
+Feb 07 16:48:54 symfony [info] {sfWebDebugLogger} Action "main/chart" 46.49 ms (1)
+Feb 07 16:48:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 16:49:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:49:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:49:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:49:33 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:49:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:49:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:49:33 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:49:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:49:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:49:33 symfony [info] {sfWebDebugLogger} Configuration 37.17 ms (11)
+Feb 07 16:49:33 symfony [info] {sfWebDebugLogger} Factories 65.86 ms (1)
+Feb 07 16:49:33 symfony [info] {sfWebDebugLogger} Action "main/chart" 49.28 ms (1)
+Feb 07 16:49:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:49:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:49:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:49:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:49:39 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:49:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:49:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:49:39 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:49:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:49:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:49:39 symfony [info] {sfWebDebugLogger} Configuration 94.79 ms (10)
+Feb 07 16:49:39 symfony [info] {sfWebDebugLogger} Factories 67.11 ms (1)
+Feb 07 16:49:39 symfony [info] {sfWebDebugLogger} Action "main/chart" 37.76 ms (1)
+Feb 07 16:49:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:49:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:49:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:49:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:49:52 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:49:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:49:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:49:52 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:49:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:49:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:49:52 symfony [info] {sfWebDebugLogger} Configuration 1.15 ms (10)
+Feb 07 16:49:52 symfony [info] {sfWebDebugLogger} Factories 26.40 ms (1)
+Feb 07 16:49:52 symfony [info] {sfWebDebugLogger} Action "main/chart" 45.39 ms (1)
+Feb 07 16:49:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:50:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:50:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:50:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:50:35 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:50:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:50:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:50:35 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:50:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:50:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:50:35 symfony [info] {sfWebDebugLogger} Configuration 1.07 ms (10)
+Feb 07 16:50:35 symfony [info] {sfWebDebugLogger} Factories 25.23 ms (1)
+Feb 07 16:50:35 symfony [info] {sfWebDebugLogger} Action "main/chart" 43.95 ms (1)
+Feb 07 16:50:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 16:50:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:50:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:50:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:50:35 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:50:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:50:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:50:35 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:50:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:50:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:50:35 symfony [info] {sfWebDebugLogger} Configuration 1.06 ms (10)
+Feb 07 16:50:35 symfony [info] {sfWebDebugLogger} Factories 24.69 ms (1)
+Feb 07 16:50:35 symfony [info] {sfWebDebugLogger} Action "main/chart" 44.24 ms (1)
+Feb 07 16:50:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 16:50:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:50:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:50:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:50:36 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:50:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:50:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:50:36 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:50:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:50:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:50:36 symfony [info] {sfWebDebugLogger} Configuration 1.08 ms (10)
+Feb 07 16:50:36 symfony [info] {sfWebDebugLogger} Factories 25.25 ms (1)
+Feb 07 16:50:36 symfony [info] {sfWebDebugLogger} Action "main/chart" 48.29 ms (1)
+Feb 07 16:50:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:50:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:50:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:50:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:50:36 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:50:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:50:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:50:36 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:50:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:50:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:50:36 symfony [info] {sfWebDebugLogger} Configuration 1.10 ms (10)
+Feb 07 16:50:36 symfony [info] {sfWebDebugLogger} Factories 25.18 ms (1)
+Feb 07 16:50:36 symfony [info] {sfWebDebugLogger} Action "main/chart" 52.02 ms (1)
+Feb 07 16:50:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:50:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:50:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:50:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:50:38 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:50:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:50:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:50:38 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "main/chart".
+Feb 07 16:50:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 07 16:50:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:50:38 symfony [info] {sfWebDebugLogger} Configuration 1.02 ms (10)
+Feb 07 16:50:38 symfony [info] {sfWebDebugLogger} Factories 23.63 ms (1)
+Feb 07 16:50:38 symfony [info] {sfWebDebugLogger} Action "main/chart" 43.14 ms (1)
+Feb 07 16:50:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 16:50:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:50:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:50:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:50:50 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:50:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:50:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:50:50 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 16:50:50 symfony [err] {sfRenderException} The template "chartSuccess.php" does not exist or is unreadable in "".
+Feb 07 16:50:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 16:50:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:50:50 symfony [info] {sfWebDebugLogger} Configuration 8.78 ms (12)
+Feb 07 16:50:50 symfony [info] {sfWebDebugLogger} Factories 26.17 ms (1)
+Feb 07 16:50:50 symfony [info] {sfWebDebugLogger} Action "main/chart" 27.66 ms (1)
+Feb 07 16:50:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:50:50 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 26.87 ms (1)
+Feb 07 16:51:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:51:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:51:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:51:07 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:51:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:51:07 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:51:07 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 16:51:07 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 16:51:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:51:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:51:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:51:23 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:51:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:51:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:51:23 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 16:51:23 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 16:51:23 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 16:51:23 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 16:51:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:51:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:51:23 symfony [info] {sfWebDebugLogger} Configuration 1.06 ms (11)
+Feb 07 16:51:23 symfony [info] {sfWebDebugLogger} Factories 24.63 ms (1)
+Feb 07 16:51:23 symfony [info] {sfWebDebugLogger} Action "main/chart" 28.55 ms (1)
+Feb 07 16:51:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:51:23 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 6.65 ms (1)
+Feb 07 16:51:23 symfony [info] {sfWebResponse} Send content (32630 o)
+Feb 07 16:51:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart/ with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 16:51:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 16:51:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 16:51:34 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 16:51:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 16:51:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 16:51:34 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 16:51:34 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 16:51:34 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 16:51:34 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 16:51:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 16:51:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 16:51:34 symfony [info] {sfWebDebugLogger} Configuration 1.11 ms (11)
+Feb 07 16:51:34 symfony [info] {sfWebDebugLogger} Factories 22.94 ms (1)
+Feb 07 16:51:34 symfony [info] {sfWebDebugLogger} Action "main/chart" 27.17 ms (1)
+Feb 07 16:51:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 16:51:34 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 6.53 ms (1)
+Feb 07 16:51:34 symfony [info] {sfWebResponse} Send content (32633 o)
