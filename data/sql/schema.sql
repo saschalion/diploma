@@ -1,0 +1,1 @@
+CREATE TABLE forest_main (id BIGINT AUTO_INCREMENT, type VARCHAR(255), company VARCHAR(255) NOT NULL, logo VARCHAR(255), url VARCHAR(255), position VARCHAR(255), location VARCHAR(255), description TEXT, how_to_apply TEXT, token VARCHAR(255) UNIQUE, is_public TINYINT(1) DEFAULT '1', is_activated TINYINT(1) DEFAULT '0', email VARCHAR(255), PRIMARY KEY(id)) ENGINE = INNODB;

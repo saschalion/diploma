@@ -1,0 +1,14 @@
+ForestMain:
+  columns:
+    type:         { type: string(255) }
+    company:      { type: string(255), notnull: true }
+    logo:         { type: string(255) }
+    url:          { type: string(255) }
+    position:     { type: string(255)}
+    location:     { type: string(255)}
+    description:  { type: string(4000)}
+    how_to_apply: { type: string(4000)}
+    token:        { type: string(255), unique: true }
+    is_public:    { type: boolean, default: 1 }
+    is_activated: { type: boolean, default: 0 }
+    email:        { type: string(255)}

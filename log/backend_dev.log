@@ -1,0 +1,1359 @@
+Feb 07 15:31:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 07 15:31:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:31:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:31:07 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 07 15:31:07 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Feb 07 15:31:07 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 07 15:31:07 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 07 15:31:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:31:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:31:07 symfony [info] {sfWebDebugLogger} Configuration 58.11 ms (10)
+Feb 07 15:31:07 symfony [info] {sfWebDebugLogger} Factories 73.46 ms (1)
+Feb 07 15:31:07 symfony [info] {sfWebDebugLogger} Action "default/index" 0.11 ms (1)
+Feb 07 15:31:07 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 9.14 ms (1)
+Feb 07 15:31:07 symfony [info] {sfWebResponse} Send content (28776 o)
+Feb 07 15:31:16 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:31:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:31:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:31:16 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:31:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:31:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:31:16 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 15:31:16 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 15:31:16 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:31:16 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:31:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:31:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Configuration 56.49 ms (12)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Factories 24.19 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Action "main/index" 27.70 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 53.65 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.32 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.30 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 32.51 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 22.75 ms (16)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_list" 0.46 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.68 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.43 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.29 ms (1)
+Feb 07 15:31:16 symfony [info] {sfWebResponse} Send content (155496 o)
+Feb 07 15:32:51 symfony [info] {sfPatternRouting} Match route "forest_main_new" (/main/new.:sf_format) for /main/new with parameters array (  'module' => 'main',  'action' => 'new',  'sf_format' => 'html',)
+Feb 07 15:32:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:32:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:32:51 symfony [info] {mainActions} Call "mainActions->executeNew()"
+Feb 07 15:32:51 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:32:51 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:32:51 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:32:51 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:32:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:32:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Configuration 1.42 ms (11)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Factories 23.72 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Action "main/new" 23.14 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} View "Success" for "main/new" 50.67 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.41 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.34 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Partial "main/_form" 40.08 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 36.27 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 30.13 ms (16)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.73 ms (1)
+Feb 07 15:32:51 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.33 ms (1)
+Feb 07 15:32:52 symfony [info] {sfWebResponse} Send content (170545 o)
+Feb 07 15:33:03 symfony [info] {sfPatternRouting} Match route "forest_main_create" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'create',  'sf_format' => 'html',)
+Feb 07 15:33:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:33:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:33:03 symfony [info] {mainActions} Call "mainActions->executeCreate()"
+Feb 07 15:33:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:33:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.category_id AS f__category_id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email, f.expires_at AS f__expires_at, f.created_at AS f__created_at, f.updated_at AS f__updated_at FROM forest_main f WHERE (f.token = ?) - ()
+Feb 07 15:33:03 symfony [info] {mainActions} Change template to "CURRENT/new"
+Feb 07 15:33:03 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:33:03 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:33:03 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:33:03 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:33:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:33:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Configuration 1.42 ms (11)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Factories 27.25 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Action "main/create" 53.61 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} View "Success" for "main/create" 60.79 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.55 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.55 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.48 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Partial "main/_form" 46.66 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 41.22 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 33.68 ms (16)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.03 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.45 ms (1)
+Feb 07 15:33:03 symfony [info] {sfWebResponse} Send content (192739 o)
+Feb 07 15:33:03 symfony [info] {myUser} Remove old flash messages ("error")
+Feb 07 15:34:26 symfony [info] {sfPatternRouting} Match route "forest_main_create" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'create',  'sf_format' => 'html',)
+Feb 07 15:34:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:34:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:34:26 symfony [info] {mainActions} Call "mainActions->executeCreate()"
+Feb 07 15:34:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:34:26 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.category_id AS f__category_id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email, f.created_at AS f__created_at, f.updated_at AS f__updated_at FROM forest_main f WHERE (f.token = ?) - ()
+Feb 07 15:34:26 symfony [info] {mainActions} Change template to "CURRENT/new"
+Feb 07 15:34:26 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:34:26 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:34:26 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:34:26 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:34:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:34:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (11)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Factories 25.95 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Action "main/create" 57.72 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} View "Success" for "main/create" 41.72 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.39 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.36 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Partial "main/_form" 29.63 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 25.46 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 20.31 ms (15)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.66 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.32 ms (1)
+Feb 07 15:34:26 symfony [info] {sfWebResponse} Send content (171774 o)
+Feb 07 15:34:26 symfony [info] {myUser} Remove old flash messages ("error")
+Feb 07 15:34:34 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:34:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:34:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:34:34 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:34:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:34:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:34:34 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 15:34:34 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 15:34:34 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:34:34 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:34:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:34:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Configuration 1.19 ms (11)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Factories 22.39 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Action "main/index" 31.58 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 49.91 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.71 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.76 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.67 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 28.07 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 19.78 ms (15)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_list" 0.51 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.67 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.42 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.29 ms (1)
+Feb 07 15:34:34 symfony [info] {sfWebResponse} Send content (143140 o)
+Feb 07 15:34:54 symfony [info] {sfPatternRouting} Match route "forest_main_new" (/main/new.:sf_format) for /main/new with parameters array (  'module' => 'main',  'action' => 'new',  'sf_format' => 'html',)
+Feb 07 15:34:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:34:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:34:54 symfony [info] {mainActions} Call "mainActions->executeNew()"
+Feb 07 15:34:54 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:55 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:55 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:55 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:55 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:55 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:55 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:34:55 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:34:55 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:34:55 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:34:55 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:34:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:34:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Configuration 1.14 ms (11)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Factories 24.31 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Action "main/new" 22.72 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} View "Success" for "main/new" 44.92 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.36 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.33 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Partial "main/_form" 35.18 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 30.68 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 23.90 ms (15)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.69 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.32 ms (1)
+Feb 07 15:34:55 symfony [info] {sfWebResponse} Send content (155784 o)
+Feb 07 15:35:40 symfony [info] {sfPatternRouting} Match route "forest_main_new" (/main/new.:sf_format) for /main/new with parameters array (  'module' => 'main',  'action' => 'new',  'sf_format' => 'html',)
+Feb 07 15:35:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:35:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:35:40 symfony [info] {mainActions} Call "mainActions->executeNew()"
+Feb 07 15:35:40 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:35:40 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:35:40 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:35:40 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:35:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:35:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Configuration 1.05 ms (11)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Factories 23.47 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Action "main/new" 18.26 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} View "Success" for "main/new" 26.19 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.33 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.34 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.44 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 13.15 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.72 ms (13)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.65 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.32 ms (1)
+Feb 07 15:35:40 symfony [info] {sfWebResponse} Send content (127100 o)
+Feb 07 15:35:49 symfony [info] {sfPatternRouting} Match route "forest_main_create" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'create',  'sf_format' => 'html',)
+Feb 07 15:35:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:35:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:35:49 symfony [info] {mainActions} Call "mainActions->executeCreate()"
+Feb 07 15:35:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:35:49 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.category_id AS f__category_id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.token = ?) - ()
+Feb 07 15:35:49 symfony [info] {mainActions} Change template to "CURRENT/new"
+Feb 07 15:35:49 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:35:49 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:35:49 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:35:49 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:35:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:35:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Configuration 1.19 ms (11)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Factories 24.87 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Action "main/create" 40.24 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} View "Success" for "main/create" 26.08 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.31 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.45 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.68 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 13.43 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.91 ms (13)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.62 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.33 ms (1)
+Feb 07 15:35:49 symfony [info] {sfWebResponse} Send content (135667 o)
+Feb 07 15:35:49 symfony [info] {myUser} Remove old flash messages ("error")
+Feb 07 15:36:20 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:36:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:36:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:36:20 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:36:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:36:20 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:36:20 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 15:36:20 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 15:36:20 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:36:20 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:36:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:36:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Configuration 1.24 ms (11)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Factories 23.44 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Action "main/index" 30.01 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 35.62 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.35 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.37 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.29 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 18.86 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 11.33 ms (13)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_list" 0.45 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.71 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.60 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.42 ms (1)
+Feb 07 15:36:20 symfony [info] {sfWebResponse} Send content (117612 o)
+Feb 07 15:36:30 symfony [info] {sfPatternRouting} Match route "forest_main_new" (/main/new.:sf_format) for /main/new with parameters array (  'module' => 'main',  'action' => 'new',  'sf_format' => 'html',)
+Feb 07 15:36:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:36:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:36:30 symfony [info] {mainActions} Call "mainActions->executeNew()"
+Feb 07 15:36:30 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:36:30 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:36:30 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:36:30 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:36:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:36:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Configuration 1.09 ms (11)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Factories 27.01 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Action "main/new" 22.63 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} View "Success" for "main/new" 26.31 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.33 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.33 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.43 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.87 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 13.49 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.81 ms (13)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.60 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.32 ms (1)
+Feb 07 15:36:30 symfony [info] {sfWebResponse} Send content (127169 o)
+Feb 07 15:36:37 symfony [info] {sfPatternRouting} Match route "forest_main_create" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'create',  'sf_format' => 'html',)
+Feb 07 15:36:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:36:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:36:37 symfony [info] {mainActions} Call "mainActions->executeCreate()"
+Feb 07 15:36:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:36:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.category_id AS f__category_id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.token = ?) - ()
+Feb 07 15:36:37 symfony [info] {mainActions} Change template to "CURRENT/new"
+Feb 07 15:36:37 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:36:37 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:36:37 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:36:37 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:36:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:36:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Configuration 1.23 ms (11)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Factories 24.35 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Action "main/create" 36.53 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} View "Success" for "main/create" 26.16 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.40 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.36 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.45 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 13.25 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.82 ms (13)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.61 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.32 ms (1)
+Feb 07 15:36:37 symfony [info] {sfWebResponse} Send content (134539 o)
+Feb 07 15:36:37 symfony [info] {myUser} Remove old flash messages ("error")
+Feb 07 15:36:46 symfony [info] {sfPatternRouting} Match route "forest_main_create" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'create',  'sf_format' => 'html',)
+Feb 07 15:36:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:36:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:36:46 symfony [info] {mainActions} Call "mainActions->executeCreate()"
+Feb 07 15:36:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:36:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.category_id AS f__category_id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.token = ?) - ()
+Feb 07 15:36:46 symfony [info] {mainActions} Change template to "CURRENT/new"
+Feb 07 15:36:46 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:36:46 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:36:46 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:36:46 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:36:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:36:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (11)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Factories 23.01 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Action "main/create" 35.89 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} View "Success" for "main/create" 26.23 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.34 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.37 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.91 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 13.57 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 9.09 ms (13)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.67 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.33 ms (1)
+Feb 07 15:36:46 symfony [info] {sfWebResponse} Send content (134889 o)
+Feb 07 15:36:46 symfony [info] {myUser} Remove old flash messages ("error")
+Feb 07 15:37:08 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:37:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:37:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:37:08 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:37:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:37:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:37:08 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 15:37:08 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 15:37:08 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:37:08 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:37:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:37:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Configuration 1.01 ms (11)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Factories 23.28 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Action "main/index" 28.83 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 27.57 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.34 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.33 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.30 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 15.95 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.25 ms (12)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_list" 0.47 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.61 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.41 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.30 ms (1)
+Feb 07 15:37:08 symfony [info] {sfWebResponse} Send content (109599 o)
+Feb 07 15:37:11 symfony [info] {sfPatternRouting} Match route "forest_main_new" (/main/new.:sf_format) for /main/new with parameters array (  'module' => 'main',  'action' => 'new',  'sf_format' => 'html',)
+Feb 07 15:37:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:37:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:37:11 symfony [info] {mainActions} Call "mainActions->executeNew()"
+Feb 07 15:37:11 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:37:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:37:11 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:37:11 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:37:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:37:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Configuration 1.30 ms (11)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Factories 22.81 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Action "main/new" 19.05 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} View "Success" for "main/new" 25.44 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.34 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.33 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Partial "main/_form" 15.72 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 12.56 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.25 ms (12)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.61 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.33 ms (1)
+Feb 07 15:37:11 symfony [info] {sfWebResponse} Send content (118297 o)
+Feb 07 15:37:17 symfony [info] {sfPatternRouting} Match route "forest_main_create" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'create',  'sf_format' => 'html',)
+Feb 07 15:37:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:37:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:37:17 symfony [info] {mainActions} Call "mainActions->executeCreate()"
+Feb 07 15:37:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:37:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.token = ?) - ()
+Feb 07 15:37:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO forest_main (is_public, is_activated, type, company, logo, url, position, location, description, how_to_apply, token, email) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 1, , forest, , , , , , , , )
+Feb 07 15:37:17 symfony [info] {sfFrontWebController} Redirect to "http://forest.local/backend_dev.php/main/1/edit"
+Feb 07 15:37:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 07 15:37:17 symfony [info] {sfWebResponse} Send header "Location: http://forest.local/backend_dev.php/main/1/edit"
+Feb 07 15:37:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Configuration 1.08 ms (10)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Factories 25.60 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Action "main/create" 91.94 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 15:37:17 symfony [info] {sfWebResponse} Send content (118 o)
+Feb 07 15:37:17 symfony [info] {sfPatternRouting} Match route "forest_main_edit" (/main/:id/edit.:sf_format) for /main/1/edit with parameters array (  'module' => 'main',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 15:37:17 symfony [info] {myUser} Flag old flash messages ("notice")
+Feb 07 15:37:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:37:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:37:17 symfony [info] {mainActions} Call "mainActions->executeEdit()"
+Feb 07 15:37:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:37:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) - (1)
+Feb 07 15:37:17 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/editSuccess.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:37:17 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:37:17 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:37:17 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:37:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:37:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Configuration 1.14 ms (11)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Factories 23.47 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Action "main/edit" 36.17 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} View "Success" for "main/edit" 26.11 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.33 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.38 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.32 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.63 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 12.30 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.02 ms (12)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.20 ms (1)
+Feb 07 15:37:17 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.40 ms (1)
+Feb 07 15:37:18 symfony [info] {sfWebResponse} Send content (123820 o)
+Feb 07 15:37:18 symfony [info] {myUser} Remove old flash messages ("notice")
+Feb 07 15:37:21 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:37:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:37:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:37:21 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:37:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:37:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:37:21 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:37:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 15:37:21 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 15:37:21 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "category_id" on "ForestMain"
+Feb 07 15:37:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 15:37:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Configuration 0.99 ms (11)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Factories 22.54 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Action "main/index" 28.21 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 94.57 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.33 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.33 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.30 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 16.99 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.79 ms (12)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_list" 69.36 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 5.48 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.68 ms (1)
+Feb 07 15:37:21 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 54.99 ms (1)
+Feb 07 15:42:53 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:42:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:42:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:42:53 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:42:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:42:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:42:53 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 15:42:53 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 15:42:53 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "category_id" on "ForestMain"
+Feb 07 15:42:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 15:42:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Configuration 1.09 ms (11)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Factories 22.53 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Action "main/index" 26.68 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 88.68 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.32 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.30 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 16.21 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.35 ms (12)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_list" 64.53 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 5.67 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.42 ms (1)
+Feb 07 15:42:53 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 52.29 ms (1)
+Feb 07 15:42:56 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:42:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:42:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:42:56 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:42:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:42:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:42:56 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:42:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 15:42:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 15:42:56 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "category_id" on "ForestMain"
+Feb 07 15:42:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 15:42:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Configuration 1.03 ms (11)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Factories 22.21 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Action "main/index" 27.62 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 88.73 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.35 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.30 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 16.05 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.28 ms (12)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_list" 63.92 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 5.51 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.48 ms (1)
+Feb 07 15:42:56 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 51.71 ms (1)
+Feb 07 15:43:38 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:43:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:43:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:43:38 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:43:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:43:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:43:38 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 15:43:38 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 15:43:38 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:43:38 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:43:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:43:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Configuration 1.22 ms (11)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Factories 24.65 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Action "main/index" 27.46 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 39.38 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.77 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.83 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.66 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 17.68 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.40 ms (12)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_list" 0.47 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.65 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.42 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.29 ms (1)
+Feb 07 15:43:38 symfony [info] {sfWebResponse} Send content (109631 o)
+Feb 07 15:43:50 symfony [info] {sfPatternRouting} Match route "forest_main_new" (/main/new.:sf_format) for /main/new with parameters array (  'module' => 'main',  'action' => 'new',  'sf_format' => 'html',)
+Feb 07 15:43:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:43:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:43:50 symfony [info] {mainActions} Call "mainActions->executeNew()"
+Feb 07 15:43:50 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/newSuccess.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:43:50 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:43:50 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:43:50 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:43:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:43:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Configuration 1.05 ms (11)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Factories 23.07 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Action "main/new" 19.80 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} View "Success" for "main/new" 24.78 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.34 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.32 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Partial "main/_form" 15.38 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 11.99 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 7.91 ms (12)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 0.81 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.39 ms (1)
+Feb 07 15:43:50 symfony [info] {sfWebResponse} Send content (118296 o)
+Feb 07 15:43:54 symfony [info] {sfPatternRouting} Match route "forest_main_create" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'create',  'sf_format' => 'html',)
+Feb 07 15:43:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:43:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:43:54 symfony [info] {mainActions} Call "mainActions->executeCreate()"
+Feb 07 15:43:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:43:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.token = ?) - ()
+Feb 07 15:43:54 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO forest_main (is_public, is_activated, type, company, logo, url, position, location, description, how_to_apply, token, email) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 1, , forest, , , , , , , , )
+Feb 07 15:43:54 symfony [info] {sfFrontWebController} Redirect to "http://forest.local/backend_dev.php/main/1/edit"
+Feb 07 15:43:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 07 15:43:54 symfony [info] {sfWebResponse} Send header "Location: http://forest.local/backend_dev.php/main/1/edit"
+Feb 07 15:43:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Configuration 1.06 ms (10)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Factories 23.27 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Action "main/create" 84.13 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 15:43:54 symfony [info] {sfWebResponse} Send content (118 o)
+Feb 07 15:43:54 symfony [info] {sfPatternRouting} Match route "forest_main_edit" (/main/:id/edit.:sf_format) for /main/1/edit with parameters array (  'module' => 'main',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 15:43:54 symfony [info] {myUser} Flag old flash messages ("notice")
+Feb 07 15:43:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:43:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:43:54 symfony [info] {mainActions} Call "mainActions->executeEdit()"
+Feb 07 15:43:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:43:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) - (1)
+Feb 07 15:43:54 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/editSuccess.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:43:54 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:43:54 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:43:54 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:43:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:43:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Configuration 1.18 ms (11)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Factories 27.55 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Action "main/edit" 40.31 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} View "Success" for "main/edit" 26.88 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.37 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.37 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.28 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 12.40 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.24 ms (12)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.19 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.33 ms (1)
+Feb 07 15:43:54 symfony [info] {sfWebResponse} Send content (123820 o)
+Feb 07 15:43:54 symfony [info] {myUser} Remove old flash messages ("notice")
+Feb 07 15:43:56 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:43:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:43:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:43:56 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:43:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:43:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:43:56 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:43:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 15:43:56 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 15:43:56 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "category_id" on "ForestMain"
+Feb 07 15:43:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 07 15:43:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Configuration 1.03 ms (11)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Factories 22.57 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Action "main/index" 28.77 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 90.19 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.38 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.36 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.29 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 16.35 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.57 ms (12)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_list" 65.45 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 5.68 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.44 ms (1)
+Feb 07 15:43:56 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 52.86 ms (1)
+Feb 07 15:45:11 symfony [info] {sfPatternRouting} Match route "forest_main_edit" (/main/:id/edit.:sf_format) for /main/1/edit with parameters array (  'module' => 'main',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 15:45:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:45:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:45:11 symfony [info] {mainActions} Call "mainActions->executeEdit()"
+Feb 07 15:45:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:45:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) - (1)
+Feb 07 15:45:11 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/editSuccess.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:45:11 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:45:11 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:45:11 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:45:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:45:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Configuration 1.10 ms (11)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Factories 21.88 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Action "main/edit" 36.73 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} View "Success" for "main/edit" 28.12 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.40 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.45 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Partial "main/_form" 17.25 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 12.60 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.28 ms (12)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.64 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.58 ms (1)
+Feb 07 15:45:11 symfony [info] {sfWebResponse} Send content (123195 o)
+Feb 07 15:50:08 symfony [info] {sfPatternRouting} Match route "forest_main_edit" (/main/:id/edit.:sf_format) for /main/1/edit with parameters array (  'module' => 'main',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Feb 07 15:50:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:50:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:50:09 symfony [info] {mainActions} Call "mainActions->executeEdit()"
+Feb 07 15:50:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:50:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) - (1)
+Feb 07 15:50:09 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/editSuccess.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_header.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_fieldset.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_field.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_actions.php"
+Feb 07 15:50:09 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_form_footer.php"
+Feb 07 15:50:09 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:50:09 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:50:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:50:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Configuration 34.57 ms (12)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Factories 24.31 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Action "main/edit" 27.66 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} View "Success" for "main/edit" 25.99 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.34 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Partial "main/_form_header" 0.33 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Partial "main/_form" 16.41 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Partial "main/_form_fieldset" 12.49 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Partial "main/_form_field" 8.36 ms (12)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Partial "main/_form_actions" 1.25 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebDebugLogger} Partial "main/_form_footer" 0.34 ms (1)
+Feb 07 15:50:09 symfony [info] {sfWebResponse} Send content (123229 o)
+Feb 07 15:50:12 symfony [info] {sfPatternRouting} Match route "forest_main" (/main.:sf_format) for /main with parameters array (  'module' => 'main',  'action' => 'index',  'sf_format' => 'html',)
+Feb 07 15:50:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 15:50:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 15:50:12 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 07 15:50:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 15:50:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM forest_main f - ()
+Feb 07 15:50:12 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/indexSuccess.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_assets.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_flashes.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_header.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_filters_field.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_th_tabular.php"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 07 15:50:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f LIMIT 20 - ()
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_batch_actions.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_tabular.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_field_boolean.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_td_actions.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_batch_actions.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_actions.php"
+Feb 07 15:50:12 symfony [info] {sfPartialView} Render "/home/fairdev/projects/diploma/cache/backend/dev/modules/autoMain/templates/_list_footer.php"
+Feb 07 15:50:12 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:50:12 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout.php"
+Feb 07 15:50:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 15:50:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Configuration 1.16 ms (11)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Factories 23.58 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Action "main/index" 27.58 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 42.89 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_assets" 0.34 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_flashes" 0.34 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_header" 0.29 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_filters" 16.20 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_filters_field" 9.42 ms (12)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list" 15.76 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_th_tabular" 4.26 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_batch_actions" 0.48 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_tabular" 3.51 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_field_boolean" 0.79 ms (2)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_td_actions" 1.09 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_batch_actions" 0.58 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_actions" 0.41 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebDebugLogger} Partial "main/_list_footer" 0.29 ms (1)
+Feb 07 15:50:12 symfony [info] {sfWebResponse} Send content (131261 o)
