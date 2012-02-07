@@ -32,6 +32,8 @@ class mainActions extends autoMainActions
     $this->forest_main = Doctrine_Core::getTable('ForestMain')->find(array($request->getParameter('id')));
     $this->setLayout('layout_not');
     $this->getResponse()->addStylesheet('print.css', 'last', array('media' => 'print'));
-    $this->getResponse()->addStylesheet('show.css', 'last');
+    $this->getResponse()->addStylesheet('show.css', 'last');    
+    $this->getResponse()->addJavascript('/js/jquery-1.2.6.js', 'first');
+    $this->getResponse()->addJavascript('https://www.google.com/jsapi', 'last');
   }  
 }
