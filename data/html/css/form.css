@@ -1,0 +1,177 @@
+.form label {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input, 
+.form textarea, 
+.form select {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;    
+}
+
+.form input[type="text"], 
+.form input[type="password"], 
+.form textarea, 
+.form select {
+    border: 1px solid #ccc;    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    color: #999;
+    font-size: 14px;
+}
+
+.form input[type="text"], 
+.form input[type="password"], 
+.form textarea {
+    padding: 2px;
+}
+
+.form select {
+    padding: 2px 0;   
+}
+
+.form-large input[type="text"], 
+.form-large input[type="password"], 
+.form-large textarea, 
+.form-large select {
+    width: 100%;
+}
+
+.form label.error input[type="text"],
+.form label.error input[type="password"],
+.form label.error textarea {
+    border-color: #924fda;
+    color: #666;
+}
+
+.form input[type="text"]:focus, 
+.form input[type="password"]:focus,
+.form label.error input[type="text"]:focus, 
+.form label.error input[type="password"]:focus,
+.form textarea:focus, 
+.form label.focus textarea {
+    border-color: #9e9d9d;
+    color: #666 !important;
+}
+
+.form label .required, 
+table label {
+    top: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #999;    
+}
+
+.form label .required {
+    position: absolute;
+    left: -10px;    
+}
+
+table label {
+    position: relative; 
+}
+
+.form label.error .required, 
+.form label.focus .required, 
+.form tr.focus label {
+    color: #924fda;
+}
+
+.form label.focus strong {
+    color: #666;
+}
+
+p.required-text {
+    width: 400px;
+    margin: auto;
+    color: #999;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.register-login-block #loginForm {
+    margin-bottom: 50px;
+}
+
+.only-login-form label {
+    display: inline-block;
+    float: left;
+    clear: left;
+}
+
+.only-login-form label span {
+    display: inline-block;
+    width: 55px;
+}
+
+.only-login-form p {
+    clear: both;
+    padding-left: 85px;
+}
+
+.only-login-form p a, 
+.only-login-form p a:visited {
+    color: #333333;
+    font-size: 12px;
+}
+
+.only-login-form p a:hover, 
+.only-login-form p a:visited:hover {
+    color: #A34AEB;
+}
+
+.help-text-logo {
+    display: block;
+    margin: 10px 0;
+    color: #6D6D6D;
+    font-size: 14px;
+}
+
+.help-text-logo i {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.submit-button {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #686868;
+    background-image: -moz-linear-gradient(center top , #999, #686868);
+    background-image: -o-linear-gradient(top, #999, #686868);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#999), to(#686868));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#686868');
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    height: 23px;
+    text-align: center;
+}
+
+.ie7 .submit-button {
+    padding: 0 5px;
+    background: #ccc;
+}
+
+.submit-button:hover {
+    background-color: #404040;
+    background-image: -moz-linear-gradient(center top , #999, #404040);
+    background-image: -o-linear-gradient(top, #999, #404040);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#999), to(#404040));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#404040');
+}
+
+.submit-button:active {
+    background-color: #999;
+    background-image: -moz-linear-gradient(center top , #999, #989898);
+    background-image: -o-linear-gradient(top, #999, #989898);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#999), to(#989898));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#989898');
+}

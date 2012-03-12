@@ -1,0 +1,275 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Mutual force Home page</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
+192.168.0.103       mutual.local
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <!--[if IE 7]><link href="/css/ie7.css" rel="stylesheet" text="text/css" /><![endif]-->
+  <link rel="stylesheet" href="css/boilerplate-begin.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ie.css">
+  <link rel="stylesheet" href="css/questions.css">
+  <link rel="stylesheet" href="css/boilerplate-end.css">
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+        <a class="logo" href="index.html"></a>
+        <form action="" class="login-form">
+            <label>
+                <span>Login</span>
+                <input type="text"/>
+            </label>
+            <div>
+                <label>
+                    <span>Password</span>
+                    <input class="password" type="password"/> 
+                </label>                
+                <input type="submit" value="Log In"/>
+            </div>   
+            <p>
+                <a href="#" class="forgot-link">Forgotten password?</a><br/>
+                <a href="members.html" class="sign-up-link">Sign Up</a>
+            </p>            
+        </form>        
+    </header>
+    <menu class="main-menu">
+        <li class="child-menu">
+            <a href="members.html">
+                <span>
+                    <strong>Members</strong>
+                </span>
+            </a> 
+            <menu class="sub-menu">
+                <li>
+                    <a href="#">Ex-employee</a>
+                </li>
+                <li>
+                    <a href="#">Delegate</a>
+                </li>                   
+            </menu>
+        </li>
+        <li>
+            <a href="contracts.html">
+                <span>
+                    <strong>Contracts</strong>
+                </span>
+            </a>                 
+        </li>
+        <li>
+            <a href="billing.html">
+                <span>
+                    <strong>Billing</strong>
+                </span>
+            </a> 
+        </li>
+        <li class="child-menu">
+            <a href="invite.html">
+                <span>
+                    <strong>Invite</strong>
+                </span>
+            </a> 
+            <menu class="sub-menu">
+                <li>
+                    <a href="#">Ex-employee</a>
+                </li>
+                <li>
+                    <a href="#">Delegate</a>
+                </li>                   
+            </menu>
+        </li>
+    </menu>  
+    <div id="main" role="main">
+        <div class="questions"> 
+            <div class="question-header clearfix">
+                <a class="refresh">
+                    <span></span>
+                </a>
+                <menu class="question-menu">
+                    <li class="first-li">
+                        <strong>
+                            Type in your question for 
+                        </strong>
+                    </li>
+                    <li class="menu-li active">
+                        <a href="#">
+                            <span>Jane Smith</span>
+                        </a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="#">
+                            <span>All delegates</span>
+                        </a>
+                        <menu class="sub-question-menu">
+                            <li>
+                                <a href="#">
+                                    <span>Anna Tarasenko</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>John Doe</span>
+                                </a>
+                            </li>
+                        </menu>
+                    </li>
+                </menu>
+            </div>
+            <ul class="questions-list">
+                <li class="clearfix">
+                    <div class="question-details clearfix">
+                        <span>05/08/2011</span>
+                        <span>Jane Smith asked</span>
+                    </div>
+                    <p>
+                        When a critical employee leaves a firm, it usually 
+                        takes time and money for an employer to effectively 
+                        find a replacement or educate current employees to 
+                        substitute the gap. The replacement or current 
+                        employee(s) may struggle to replace the position due to
+                        lack of specific knowledge the ex-employee already has.
+                    </p>
+                    <div class="answer-form-wrap">
+                        <span class="gray-corner corners"></span>
+                        <span class="white-corner corners"></span>
+                        <textarea></textarea>   
+                        <div class="answer-form-footer">
+                            <input type="submit" value="Answer"/>
+                            <input type="submit" value="Cancel"/>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="question-details clearfix">
+                        <span>05/08/2011</span>
+                        <span>Jane Smith asked</span>
+                    </div>
+                    <p>
+                        When a critical employee leaves a firm, it usually 
+                        takes time and money for an employer to effectively 
+                        find a replacement or educate current employees to 
+                        substitute the gap. The replacement or current 
+                        employee(s) may struggle to replace the position due to
+                        lack of specific knowledge the ex-employee already has.
+                    </p>
+                    <ul class="answer-text-list">
+                        <li>
+                            <span class="white-corner corners"></span>
+                            <div class="question-details clearfix">
+                                <span>05/08/2011</span>
+                                <span>Jane Smith asked</span>
+                            </div>
+                            <p>
+                                The replacement or current employee(s) may 
+                                struggle to replace the position due to lack of 
+                                specific knowledge the ex-employee already has.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="clearfix">
+                    <div class="question-details clearfix">
+                        <span>05/08/2011</span>
+                        <span>Jane Smith asked</span>
+                    </div>
+                    <p>
+                        When a critical employee leaves a firm, it usually 
+                        takes time and money for an employer to effectively 
+                        find a replacement or educate current employees to 
+                        substitute the gap. The replacement or current 
+                        employee(s) may struggle to replace the position due to
+                        lack of specific knowledge the ex-employee already has.
+                    </p>
+                    <div class="question-status">
+                        <span class="white-corner corners"></span>
+                        Answer
+                    </div>
+                </li>                
+            </ul>
+        </div>
+    </div>    
+  </div> <!--! end of #container -->
+  <footer>
+    <div class="footer-wrap">
+        <p class="copyright">© 2011 “Mutual force”</p>
+        <menu class="footer-menu">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">How it works</a>
+            </li>
+            <li>
+                <a href="#">Benefits</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </menu>
+    </div>        
+</footer>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  
+  <script defer src="js/user.menu.js"></script>
+  <script defer src="js/textarea.js"></script>
+  <!-- end scripts-->
+
+	
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>

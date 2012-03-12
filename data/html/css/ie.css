@@ -1,0 +1,53 @@
+.ie7 .login-form input[type="submit"] {
+    margin-left: 5px;
+}
+
+.ie7 .main-menu > li {
+    margin-top: 3px;
+}
+
+.ie8 .main-menu > li {
+    margin-top: -1px;
+}
+
+.ie7 .main-menu > li {
+    float: left;
+}
+
+.ie7 .main-menu li.active.child-menu, 
+.ie7 .main-menu li.active {
+    top: 0;
+}
+
+.ie8 .main-menu li.active.child-menu {
+    top: 3px;
+}
+
+.ie7 .main-menu li.child-menu {
+    position: relative;
+    bottom: 3px;
+}
+
+.ie7 .main-menu li.child-menu strong, 
+.ie8 .main-menu li.child-menu strong {
+    margin-top: 3px;
+}
+
+.ie7 .slider {
+    position: relative;
+    z-index: 1; 
+}
+
+.ie7 .footer-menu li {
+    display: inline;
+}
+
+.ie7 .billing-form-wrap .left-block, 
+.ie7 .billing-form-wrap .right-block {
+    display: inline;
+}
+
+.ie7 .billing-form-wrap label strong {
+    vertical-align: top;
+}
+

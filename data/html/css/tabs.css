@@ -1,0 +1,173 @@
+.tabs ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+} 
+
+.tabs > ul li {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+} 
+
+.ie7 .tabs ul li {
+    display: inline;
+} 
+
+.tabs ul li.ui-state-active {
+    z-index: 1;
+} 
+
+.tabs ul li a, 
+.tabs ul li a:hover {
+    color: #333;
+}
+
+html>/**/body noindex:-o-prefocus, html>/**/body .tabs ul li a {
+    background: #989898;
+}
+
+.tabs > ul > li > a {
+    display: block;
+    background: -moz-linear-gradient(center top , #989898, #696969);
+    background-image: -o-linear-gradient(top, #989898, #404040);
+    background: -webkit-gradient(linear, left top, left bottom, from(#989898), to(#404040));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#989898', endColorstr='#404040');
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 25px;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.tabs > ul > li > a:hover {
+    background: -moz-linear-gradient(center top , #989898, #505050);
+    background-image: -o-linear-gradient(top, #989898, #505050);
+    background: -webkit-gradient(linear, left top, left bottom, from(#989898), to(#505050));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#989898', endColorstr='#505050');
+}
+
+.tabs > ul > li > a:active {
+    background: #ccc;
+}
+
+.tabs > ul > li.ui-state-active > a {
+    background: #ccc;
+    height: 32px;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.tabs div.ui-corner-bottom {
+    padding: 5px;
+    background: #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.left-side, 
+.right-side {
+    position: absolute;
+    top: 0;
+    background: #ccc;
+    width: 10px;
+    height: 100%;
+    display: none;    
+}
+
+.ie7 .left-side, 
+.ie8 .left-side,
+.ie7 .right-side, 
+.ie8 .right-side {
+    display: none;  
+}
+
+.left-side {
+    left: -10px;
+}
+
+.right-side {
+    right: -10px;
+}
+
+.left-side i, 
+.right-side i {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: 32px;
+    width: 10px;
+    background: #fff;
+}
+
+/*.ie7 .left-side i, 
+.ie8 .left-side i,
+.ie7 .right-side i,
+.ie8 .right-side i {
+    background: #fff url(/img/tabs.png) no-repeat 0 0;
+    width: 6px;
+}
+
+.ie7 .right-side i,
+.ie8 .right-side i {
+    background-position: 0 -6px;
+}*/
+
+.left-side i {
+    right: 0;
+    -moz-border-radius: 0 0 10px 0;
+    -webkit-border-radius: 0 0 10px 0;
+    border-radius: 0 0 10px 0;
+    
+}
+
+.right-side i {
+    left: 0;
+    -moz-border-radius: 0 0 0 10px;
+    -webkit-border-radius: 0 0 0 10px;
+    border-radius: 0 0 0 10px;    
+}
+
+.tabs ul li.ui-state-active .left-side, 
+.tabs ul li.ui-state-active .right-side {
+    display: block;
+}
+
+.tabs .ui-tabs-hide {
+    display: none;
+}
+
+/* Gallery */
+
+.gallery li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.gallery li:last-child {
+    margin: 0;
+}
+
+.ie7 .gallery li {
+    display: inline;
+}
+
+.gallery li img {
+    width: 136px;
+    height: 90px;
+    opacity: .6;
+}
+
+.gallery li img:hover {
+    opacity: 1;
+}
+
+
+

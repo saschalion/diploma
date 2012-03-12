@@ -1,3 +1,16 @@
+//<?php
+//use_helper('sdInteractiveChart');
+//$chart = InteractiveChart::newAreaChart();
+//$chart->setWidthAndHeight('400', '240');
+//$chart->setDataColors(array('#aa0000'));
+//$chart->setBaselineColor('#ccc');
+//$chart->inlineGraph(array('hits' => array(1,9,5)), array('Monday', 'Tuesday', 'Wednesday'), 'chart_div');
+//$chart->render();
+//?>
+<!--
+
+<div id="chart_div"></div>-->
+
 <script>
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawChart);
@@ -84,6 +97,8 @@ function drawChart() {
 
 }
 </script>
+
+<div id="chart_div"></div>
 
 <div id="chart_div3" style="float: left;"></div>
 <div id="chart_div" style="float: left;"></div>

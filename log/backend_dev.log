@@ -3280,3 +3280,476 @@ Feb 07 18:25:00 symfony [info] {sfWebDebugLogger} Action "main/chart" 37.14 ms (
 Feb 07 18:25:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (2)
 Feb 07 18:25:00 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 26.90 ms (1)
 Feb 07 18:25:00 symfony [info] {sfWebResponse} Send content (36570 o)
+Feb 07 18:44:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:44:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:44:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:44:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:44:20 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:44:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:44:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:44:20 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:44:20 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:44:20 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:44:20 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:44:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:44:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:44:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:44:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:44:20 symfony [info] {sfWebDebugLogger} Configuration 112.71 ms (11)
+Feb 07 18:44:20 symfony [info] {sfWebDebugLogger} Factories 76.45 ms (1)
+Feb 07 18:44:20 symfony [info] {sfWebDebugLogger} Action "main/chart" 18.94 ms (1)
+Feb 07 18:44:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 18:44:20 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 15.56 ms (1)
+Feb 07 18:44:20 symfony [info] {sfWebResponse} Send content (37486 o)
+Feb 07 18:46:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:46:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:46:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:46:04 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:46:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:46:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:46:04 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:46:04 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:46:04 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:46:04 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:46:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:46:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:46:04 symfony [info] {sfWebDebugLogger} Configuration 9.04 ms (12)
+Feb 07 18:46:04 symfony [info] {sfWebDebugLogger} Factories 23.98 ms (1)
+Feb 07 18:46:04 symfony [info] {sfWebDebugLogger} Action "main/chart" 28.03 ms (1)
+Feb 07 18:46:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:46:04 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 7.93 ms (1)
+Feb 07 18:46:04 symfony [info] {sfWebResponse} Send content (37581 o)
+Feb 07 18:46:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:46:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:46:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:46:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:46:46 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:46:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:46:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:46:46 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:46:46 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:46:46 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:46:46 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:46:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:46:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:46:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:46:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:46:46 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (11)
+Feb 07 18:46:46 symfony [info] {sfWebDebugLogger} Factories 25.58 ms (1)
+Feb 07 18:46:46 symfony [info] {sfWebDebugLogger} Action "main/chart" 34.84 ms (1)
+Feb 07 18:46:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:46:46 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 9.67 ms (1)
+Feb 07 18:46:46 symfony [info] {sfWebResponse} Send content (37580 o)
+Feb 07 18:47:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:47:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:47:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:47:18 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:47:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:47:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:47:18 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:47:18 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:47:18 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:47:18 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:47:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:47:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:47:18 symfony [info] {sfWebDebugLogger} Configuration 1.40 ms (11)
+Feb 07 18:47:18 symfony [info] {sfWebDebugLogger} Factories 24.19 ms (1)
+Feb 07 18:47:18 symfony [info] {sfWebDebugLogger} Action "main/chart" 27.88 ms (1)
+Feb 07 18:47:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:47:18 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 10.96 ms (1)
+Feb 07 18:47:18 symfony [info] {sfWebResponse} Send content (37582 o)
+Feb 07 18:48:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:48:14 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:48:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:48:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:48:14 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:48:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:48:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:48:14 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:48:14 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:48:14 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:48:14 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:48:14 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:48:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:48:14 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:48:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:48:14 symfony [info] {sfWebDebugLogger} Configuration 1.07 ms (11)
+Feb 07 18:48:14 symfony [info] {sfWebDebugLogger} Factories 23.36 ms (1)
+Feb 07 18:48:14 symfony [info] {sfWebDebugLogger} Action "main/chart" 25.07 ms (1)
+Feb 07 18:48:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:48:14 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 7.72 ms (1)
+Feb 07 18:48:14 symfony [info] {sfWebResponse} Send content (37579 o)
+Feb 07 18:49:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:49:03 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:49:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:49:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:49:03 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:49:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:49:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:49:03 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:49:03 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:49:03 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:49:03 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:49:03 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:49:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:49:03 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:49:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:49:03 symfony [info] {sfWebDebugLogger} Configuration 1.18 ms (11)
+Feb 07 18:49:03 symfony [info] {sfWebDebugLogger} Factories 23.49 ms (1)
+Feb 07 18:49:03 symfony [info] {sfWebDebugLogger} Action "main/chart" 25.81 ms (1)
+Feb 07 18:49:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 18:49:03 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 8.14 ms (1)
+Feb 07 18:49:03 symfony [info] {sfWebResponse} Send content (37579 o)
+Feb 07 18:49:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:49:24 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:49:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:49:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:49:24 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:49:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:49:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:49:24 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:49:24 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:49:24 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:49:24 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:49:24 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:49:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:49:24 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:49:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:49:24 symfony [info] {sfWebDebugLogger} Configuration 1.11 ms (11)
+Feb 07 18:49:24 symfony [info] {sfWebDebugLogger} Factories 27.86 ms (1)
+Feb 07 18:49:24 symfony [info] {sfWebDebugLogger} Action "main/chart" 30.64 ms (1)
+Feb 07 18:49:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:49:24 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 8.61 ms (1)
+Feb 07 18:49:24 symfony [info] {sfWebResponse} Send content (37548 o)
+Feb 07 18:50:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:50:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:50:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:50:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:50:37 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:50:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:50:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:50:37 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:50:37 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:50:37 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:50:37 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:50:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:50:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:50:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:50:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:50:37 symfony [info] {sfWebDebugLogger} Configuration 1.25 ms (11)
+Feb 07 18:50:37 symfony [info] {sfWebDebugLogger} Factories 24.81 ms (1)
+Feb 07 18:50:37 symfony [info] {sfWebDebugLogger} Action "main/chart" 31.21 ms (1)
+Feb 07 18:50:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:50:37 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 11.72 ms (1)
+Feb 07 18:50:37 symfony [info] {sfWebResponse} Send content (37616 o)
+Feb 07 18:52:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:52:02 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:52:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:52:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:52:02 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:52:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:52:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:52:02 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:52:02 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:52:02 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:52:02 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:52:02 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:52:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:52:02 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:52:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:52:02 symfony [info] {sfWebDebugLogger} Configuration 1.49 ms (11)
+Feb 07 18:52:02 symfony [info] {sfWebDebugLogger} Factories 32.19 ms (1)
+Feb 07 18:52:02 symfony [info] {sfWebDebugLogger} Action "main/chart" 29.07 ms (1)
+Feb 07 18:52:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 18:52:02 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 8.30 ms (1)
+Feb 07 18:52:02 symfony [info] {sfWebResponse} Send content (37406 o)
+Feb 07 18:52:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:52:05 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:52:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:52:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:52:05 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:52:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:52:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:52:05 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:52:05 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:52:05 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:52:05 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:52:05 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:52:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:52:05 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:52:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:52:05 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (11)
+Feb 07 18:52:05 symfony [info] {sfWebDebugLogger} Factories 25.65 ms (1)
+Feb 07 18:52:05 symfony [info] {sfWebDebugLogger} Action "main/chart" 26.16 ms (1)
+Feb 07 18:52:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:52:05 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 10.07 ms (1)
+Feb 07 18:52:05 symfony [info] {sfWebResponse} Send content (37407 o)
+Feb 07 18:53:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:53:36 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:53:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:53:36 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:53:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:53:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:53:36 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:53:36 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:53:36 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:53:36 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:53:36 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:53:36 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:53:36 symfony [info] {sfWebDebugLogger} Configuration 1.24 ms (11)
+Feb 07 18:53:36 symfony [info] {sfWebDebugLogger} Factories 24.94 ms (1)
+Feb 07 18:53:36 symfony [info] {sfWebDebugLogger} Action "main/chart" 29.18 ms (1)
+Feb 07 18:53:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:53:36 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 8.61 ms (1)
+Feb 07 18:53:36 symfony [info] {sfWebResponse} Send content (37067 o)
+Feb 07 18:53:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:53:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:53:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:53:38 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:53:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:53:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:53:38 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:53:38 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:53:38 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:53:38 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:53:38 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:53:38 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} Configuration 1.14 ms (11)
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} Factories 24.16 ms (1)
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} Action "main/chart" 26.01 ms (1)
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 11.66 ms (1)
+Feb 07 18:53:38 symfony [info] {sfWebResponse} Send content (37069 o)
+Feb 07 18:53:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:53:38 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:53:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:53:38 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:53:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:53:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:53:38 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:53:38 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:53:38 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:53:38 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:53:38 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:53:38 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} Configuration 1.22 ms (11)
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} Factories 24.51 ms (1)
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} Action "main/chart" 31.38 ms (1)
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:53:38 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 8.26 ms (1)
+Feb 07 18:53:38 symfony [info] {sfWebResponse} Send content (37067 o)
+Feb 07 18:53:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:53:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:53:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:53:39 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:53:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:53:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:53:39 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:53:39 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:53:39 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:53:39 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:53:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:53:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:53:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:53:39 symfony [info] {sfWebDebugLogger} Configuration 1.33 ms (11)
+Feb 07 18:53:39 symfony [info] {sfWebDebugLogger} Factories 25.21 ms (1)
+Feb 07 18:53:39 symfony [info] {sfWebDebugLogger} Action "main/chart" 32.92 ms (1)
+Feb 07 18:53:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:53:39 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 10.45 ms (1)
+Feb 07 18:53:39 symfony [info] {sfWebResponse} Send content (37070 o)
+Feb 07 18:54:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:54:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:54:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:54:31 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:54:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:54:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:54:31 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:54:31 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:54:31 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:54:31 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:54:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:54:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:54:31 symfony [info] {sfWebDebugLogger} Configuration 1.25 ms (11)
+Feb 07 18:54:31 symfony [info] {sfWebDebugLogger} Factories 26.28 ms (1)
+Feb 07 18:54:31 symfony [info] {sfWebDebugLogger} Action "main/chart" 28.52 ms (1)
+Feb 07 18:54:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:54:31 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 10.78 ms (1)
+Feb 07 18:54:31 symfony [info] {sfWebResponse} Send content (37353 o)
+Feb 07 18:55:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:55:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:55:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:55:34 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:55:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:55:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:55:34 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:55:34 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:55:34 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:55:34 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:55:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:55:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:55:34 symfony [info] {sfWebDebugLogger} Configuration 1.11 ms (11)
+Feb 07 18:55:34 symfony [info] {sfWebDebugLogger} Factories 23.40 ms (1)
+Feb 07 18:55:34 symfony [info] {sfWebDebugLogger} Action "main/chart" 27.59 ms (1)
+Feb 07 18:55:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:55:34 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 8.31 ms (1)
+Feb 07 18:55:34 symfony [info] {sfWebResponse} Send content (37352 o)
+Feb 07 18:56:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:56:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:56:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:56:02 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:56:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:56:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:56:02 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:56:02 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:56:02 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:56:02 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:56:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:56:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:56:02 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (11)
+Feb 07 18:56:02 symfony [info] {sfWebDebugLogger} Factories 25.22 ms (1)
+Feb 07 18:56:02 symfony [info] {sfWebDebugLogger} Action "main/chart" 41.02 ms (1)
+Feb 07 18:56:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 18:56:02 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 7.70 ms (1)
+Feb 07 18:56:02 symfony [info] {sfWebResponse} Send content (37685 o)
+Feb 07 18:56:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:56:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:56:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:56:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:56:57 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:56:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:56:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:56:57 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:56:57 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:56:57 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:56:57 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:56:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:56:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:56:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:56:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:56:57 symfony [info] {sfWebDebugLogger} Configuration 1.22 ms (11)
+Feb 07 18:56:57 symfony [info] {sfWebDebugLogger} Factories 24.98 ms (1)
+Feb 07 18:56:57 symfony [info] {sfWebDebugLogger} Action "main/chart" 27.42 ms (1)
+Feb 07 18:56:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:56:57 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 14.77 ms (1)
+Feb 07 18:56:57 symfony [info] {sfWebResponse} Send content (37404 o)
+Feb 07 18:57:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:57:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:57:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:57:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:57:12 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:57:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:57:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:57:12 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:57:12 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:57:12 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:57:12 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:57:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:57:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:57:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:57:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:57:12 symfony [info] {sfWebDebugLogger} Configuration 1.18 ms (11)
+Feb 07 18:57:12 symfony [info] {sfWebDebugLogger} Factories 28.76 ms (1)
+Feb 07 18:57:12 symfony [info] {sfWebDebugLogger} Action "main/chart" 30.08 ms (1)
+Feb 07 18:57:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 07 18:57:12 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 8.65 ms (1)
+Feb 07 18:57:12 symfony [info] {sfWebResponse} Send content (37402 o)
+Feb 07 18:57:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:57:22 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:57:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:57:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:57:22 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:57:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:57:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:57:22 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:57:22 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:57:22 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:57:22 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:57:22 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:57:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:57:22 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:57:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:57:22 symfony [info] {sfWebDebugLogger} Configuration 1.10 ms (11)
+Feb 07 18:57:22 symfony [info] {sfWebDebugLogger} Factories 25.07 ms (1)
+Feb 07 18:57:22 symfony [info] {sfWebDebugLogger} Action "main/chart" 26.41 ms (1)
+Feb 07 18:57:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 18:57:22 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 7.77 ms (1)
+Feb 07 18:57:22 symfony [info] {sfWebResponse} Send content (37401 o)
+Feb 07 18:58:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 07 18:58:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:58:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 18:58:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 18:58:27 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 07 18:58:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 18:58:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 07 18:58:27 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 07 18:58:27 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 07 18:58:27 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:58:27 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 07 18:58:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:58:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 18:58:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 07 18:58:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 18:58:27 symfony [info] {sfWebDebugLogger} Configuration 1.21 ms (11)
+Feb 07 18:58:27 symfony [info] {sfWebDebugLogger} Factories 28.15 ms (1)
+Feb 07 18:58:27 symfony [info] {sfWebDebugLogger} Action "main/chart" 27.71 ms (1)
+Feb 07 18:58:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Feb 07 18:58:27 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 8.57 ms (1)
+Feb 07 18:58:27 symfony [info] {sfWebResponse} Send content (37401 o)
+Feb 08 11:37:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 08 11:37:34 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 08 11:37:34 symfony [info] {myUser} Automatic user logout due to timeout
+Feb 08 11:37:34 symfony [info] {myUser} User is not authenticated
+Feb 08 11:37:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 08 11:37:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 08 11:37:34 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 08 11:37:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 08 11:37:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 08 11:37:35 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 08 11:37:35 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 08 11:37:35 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 08 11:37:35 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 08 11:37:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 08 11:37:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 08 11:37:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 08 11:37:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 08 11:37:35 symfony [info] {sfWebDebugLogger} Configuration 35.45 ms (11)
+Feb 08 11:37:35 symfony [info] {sfWebDebugLogger} Factories 274.61 ms (1)
+Feb 08 11:37:35 symfony [info] {sfWebDebugLogger} Action "main/chart" 386.49 ms (1)
+Feb 08 11:37:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 08 11:37:35 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 125.65 ms (1)
+Feb 08 11:37:35 symfony [info] {sfWebResponse} Send content (38054 o)
+Feb 08 11:38:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /main/chart with parameters array (  'module' => 'main',  'action' => 'chart',)
+Feb 08 11:38:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 08 11:38:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 08 11:38:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 08 11:38:56 symfony [info] {mainActions} Call "mainActions->executeChart()"
+Feb 08 11:38:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 08 11:38:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT f.id AS f__id, f.type AS f__type, f.company AS f__company, f.logo AS f__logo, f.url AS f__url, f.position AS f__position, f.location AS f__location, f.description AS f__description, f.how_to_apply AS f__how_to_apply, f.token AS f__token, f.is_public AS f__is_public, f.is_activated AS f__is_activated, f.email AS f__email FROM forest_main f WHERE (f.id = ?) LIMIT 1 - ()
+Feb 08 11:38:56 symfony [info] {mainActions} Change layout to "layout_not"
+Feb 08 11:38:56 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/modules/main/templates/chartSuccess.php"
+Feb 08 11:38:56 symfony [info] {sfPHPView} Decorate content with "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 08 11:38:56 symfony [info] {sfPHPView} Render "/home/fairdev/projects/diploma/apps/backend/templates/layout_not.php"
+Feb 08 11:38:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 08 11:38:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 08 11:38:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fairdev/projects/diploma/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fairdev/projects/diploma/plugins/sdInteractiveChartPlugin/config/config.php:3))
+Feb 08 11:38:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 08 11:38:56 symfony [info] {sfWebDebugLogger} Configuration 1.15 ms (11)
+Feb 08 11:38:56 symfony [info] {sfWebDebugLogger} Factories 24.48 ms (1)
+Feb 08 11:38:56 symfony [info] {sfWebDebugLogger} Action "main/chart" 32.02 ms (1)
+Feb 08 11:38:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 08 11:38:56 symfony [info] {sfWebDebugLogger} View "Success" for "main/chart" 12.22 ms (1)
+Feb 08 11:38:56 symfony [info] {sfWebResponse} Send content (37375 o)

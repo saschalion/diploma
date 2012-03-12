@@ -33,7 +33,7 @@ class mainActions extends autoMainActions
     $this->setLayout('layout_not');
     $this->getResponse()->addStylesheet('print.css', 'last', array('media' => 'print'));
     $this->getResponse()->addStylesheet('show.css', 'last');    
-    $this->getResponse()->addJavascript('/js/jquery-1.2.6.js', 'first');
-    $this->getResponse()->addJavascript('https://www.google.com/jsapi', 'last');
+//    $this->getResponse()->addJavascript('/js/jquery-1.2.6.js', 'first');
+//    $this->getResponse()->addJavascript('https://www.google.com/jsapi', 'last');
   }  
 }
