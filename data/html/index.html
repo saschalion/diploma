@@ -31,7 +31,12 @@
   <link rel="stylesheet" href="css/boilerplate-end.css">
   <link type="text/css" href="css/tabs.css" rel="stylesheet" />	
   <link type="text/css" href="css/fancy.css" rel="stylesheet" />	
-
+<style>
+.handlers div { width:60px; height:60px; margin:5px; float:left;
+background:green; border:10px outset; 
+cursor:pointer; }
+.handlers p { color:red; margin:0; clear:left; }
+</style>
   <!-- end CSS-->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -46,6 +51,14 @@
 <body>
 
   <div id="container">
+    <div class="handlers">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <p>Click a green square...</p>
+    </div>
     <header>
         <a class="logo" href="index.html"></a>
         <form action="" class="login-form">
